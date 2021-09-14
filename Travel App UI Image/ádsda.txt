@@ -1,0 +1,18 @@
+- Vào: A, B, m, n
+- Ra: C
+{Chuong trinh nay tinh tong 2 ma tran co cung kich thuoc m*n}
+Program tinhTongMT;
+	1){Nhap ma tran A}
+	CALL nhapMT(A, m, n);
+
+	2){Nhap ma tran B}
+	CALL nhapMT(B, m, n);
+
+	3){Tính tong}
+	C:= congMT(A, B, m, n);
+	
+	4){Dua ra man hinh ma tran A, B, C}
+	CALL xuatMT(A, m, n);
+	CALL xuatMT(B, m, n);
+	CALL xuatMT(C, m, n);
+End.
